@@ -1,4 +1,5 @@
-Q1.
+
+Q1. 'transform.py' from pyimagesearch has been imported, so make sure that folder pyimagesearch and Q1.py are in same destination.
 	a) python Q1.py --image text_box.jpg
 
 	b) python Q1.py --image Ajanta_inscription.jpg
