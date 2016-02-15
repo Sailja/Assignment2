@@ -3,5 +3,16 @@ QUESTION 1:
 1. Ask the user to click on four points.
 2. Construct the argument parse and parse the arguments.
 3. Take the input from user.
-4. Take the four point transformation.
+4. Take the four point transformation.(
+this method is discussed along with codes using comments)
 5. Display the original image and rectified image.
+
+QUESTION 2:
+
+1. Construct the argument parse and parse the arguments.
+2. Initiate SIFT detector.
+3. Find the keypoints and descriptors with SIFT.
+4. Store all the good matches as per Lowe's ration test.
+5. Draw the (inliers) matches in green.
+
+Other methods are discussed using comments in code itself.
