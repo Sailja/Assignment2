@@ -1,0 +1,19 @@
+QUESTION 1:
+
+Although the rectification of image is successful but it can be further improved where the user need not give the four points.
+I tried to use Harris corner detection to find the corners and apply the rectivation for that rectangular part but was not successful.
+
+QUESTION 2:
+
+I have applied the homography computation in grayscale.
+Also, since the resolution of image is greater than screen resolution, it was creating problem in displaying the results.
+
+The deblurring part was not successfully carried out. Although I though it may be possible that we stitch the Ajanta_1.jpg, Ajanta_2.jpg and Ajanta_blurred.jpg.
+I was not able to figure out the algorithm to deblurr it.
+
+The mosaicing part was done successfully as can be seen in the result. But there was only one problem that is about the size of resultant image.
+Also there was a dark part in both the images which while stitching was remaining dark. For its rectification, I first cropped the images and stitched it.
+
+Bilinear Interpolation was very time taking because of image's high resolution and also I was not able to figure out the algorithm to use other image information in its upsampling.
+In my view this method would have been helpful if images were of different resolution. Then image of low resolution can be upsampled to match the resolution of higher one and its information can be used for filling the missing resolution.
+In this case the only possible solution which I can think of was again stitching the both images and nothing else which has already been done in previous part.
