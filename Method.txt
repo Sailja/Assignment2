@@ -1,0 +1,7 @@
+QUESTION 1:
+
+1. Ask the user to click on four points.
+2. Construct the argument parse and parse the arguments.
+3. Take the input from user.
+4. Take the four point transformation.
+5. Display the original image and rectified image.
